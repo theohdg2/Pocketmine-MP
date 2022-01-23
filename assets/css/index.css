@@ -1,0 +1,64 @@
+:root{
+    --blue-color: #4752C4;
+    --text-color: #9CA3AF;
+}
+html{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #1D1D1D;
+}
+.navigation{
+    top: 0;
+    text-align: center;
+    background-color: var(--blue-color);
+}
+
+.allFunction{
+    border-right: solid white;
+    border-width: 1mm;
+}
+.description{
+    text-align: center;
+    font-size: 1.2em !important;
+    top: 2em;
+}
+.what{
+    color: #FFFFFF;
+}
+.software{
+    color: var(--text-color);
+}
+
+.whyNot{
+    color: white;
+}
+.pluginDescription{
+    color: var(--text-color);
+}
+.container{
+    display: flex;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 750px){
+    .allFunction{
+        width: 45% !important;
+    }
+    .description{
+        margin-left: 1%;
+    }
+}
+@media screen and (min-width: 750px){
+    .allFunction{
+        width: 25% !important;
+    }
+    .description{
+        margin-left: 5%;
+    }
+}
