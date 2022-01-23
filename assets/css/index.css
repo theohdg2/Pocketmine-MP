@@ -20,8 +20,6 @@ header{
 }
 nav{
     float: left;
-    border-right: solid white;
-    border-color: 1mm;
     text-align: left;
 }
 .core{
@@ -33,6 +31,7 @@ nav{
     list-style:none;
     text-align: center;
     width: 200px;
+    
   }
 #menu-accordeon ul {
     padding:0;
@@ -63,7 +62,7 @@ nav{
     display:block;
     text-decoration: none;
     color: #fff;
-    padding: 8px 0;
+    padding: 10px 0;
     font-family: verdana;
     font-size:1.2em
 }
