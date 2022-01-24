@@ -1,0 +1,16 @@
+/* Définitions des variables */
+:root{
+    --blue-color: #1572A1;
+    --text-color: #9CA3AF;
+}
+/* Paramètres des dossiers */
+.card{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* Définition de la taille des images*/
+.tuto{
+    width: 500px;
+    margin-bottom: 20px;
+}
