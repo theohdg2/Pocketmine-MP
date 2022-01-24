@@ -1,0 +1,124 @@
+:root{
+    --blue-color: #1572A1;
+    --text-color: #9CA3AF;
+}
+html{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    max-width: 100% !important;
+}
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #1D1D1D;
+    color: var(--text-color);
+}
+header{
+    top: 0;
+    text-align: center;
+    background-color: var(--blue-color);
+}
+nav{
+    float: left;
+    text-align: left;
+}
+#menu-accordeon {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-right: 4px solid white;
+    padding-right: 50px;
+  }
+#menu-accordeon ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+}
+#menu-accordeon li {
+    background-color:#729EBF; 
+    background-image:-webkit-linear-gradient(top, #729EBF 0%, var(--blue-color) 100%);
+    background-image: linear-gradient(to bottom, #729EBF 0%, var(--blue-color) 100%);
+    border-radius: 6px;
+    margin-bottom:2px;
+    
+    border:solid 1px #333A40
+}
+#menu-accordeon li li {
+    max-height:0;
+    overflow: hidden;
+    transition: all .5s;
+    border-radius:0;
+    background: #444;
+    box-shadow: none;
+    border:none;
+    margin:0
+}
+#menu-accordeon a {
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    font-family: verdana;
+    font-size:1.2em
+}
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+    font-size:1em
+}
+#menu-accordeon li:hover {
+    background: #729EBF
+}
+#menu-accordeon li li:hover {
+    background: #999;
+}
+#menu-accordeon ul li:last-child {
+    border-radius: 0 0 6px 6px;
+    border:none;
+}
+#menu-accordeon li:hover li {
+    max-height: 15em;
+}
+p{
+    font-size: 1.2em;
+}
+h1{
+    font-size: 2em;
+}
+footer{
+    background-color: var(--blue-color);
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    bottom: 0;
+    color: var(--text-color);
+    height: 5em;
+    padding-top: 20px;
+    margin-top: 150px;
+}
+.icon{
+    width: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.footer-left{
+    float: left;
+    display: inline-flex;
+}
+.link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.link:hover{
+    color: turquoise;
+    text-decoration: underline;
+}
+.core{
+    text-align: center;
+    width: 75%;
+}
