@@ -1,24 +1,29 @@
+/* Définitions des variables */
 :root{
     --blue-color: #1572A1;
     --text-color: #9CA3AF;
 }
+/* Définitions paramètres du html */
 html{
     margin: 0 !important;
     padding: 0 !important;
     height: 100%;
     max-width: 100% !important;
 }
+/* Définitions des paramètres du body */
 body{
     margin: 0 !important;
     padding: 0 !important;
     background-color: #1D1D1D;
     color: var(--text-color);
 }
+/* Définitions des paramètres du header */
 header{
     top: 0;
     text-align: center;
     background-color: var(--blue-color);
 }
+/* Définitions de la bare de navigation */
 nav{
     float: left;
     text-align: left;
@@ -83,12 +88,15 @@ nav{
 #menu-accordeon li:hover li {
     max-height: 15em;
 }
+/* Redéfinition de la taille des paragraphes */
 p{
     font-size: 1.2em;
 }
+/* Redéfinition de la taille des titres de taille 1 */
 h1{
     font-size: 2em;
 }
+/* Mise en place du footer */
 footer{
     background-color: var(--blue-color);
     width: 100%;
@@ -100,24 +108,27 @@ footer{
     padding-top: 20px;
     margin-top: 150px;
 }
+.footer-left{
+    float: left;
+    display: inline-flex;
+}
+/* Image icon du site */
 .icon{
     width: 50px;
     padding-left: 5px;
     padding-top: 5px;
     padding-right: 10px;
 }
-.footer-left{
-    float: left;
-    display: inline-flex;
-}
+/* Définition des liens */
 .link{
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--text-color);
 }
 .link:hover{
     color: turquoise;
     text-decoration: underline;
 }
+/* Définiton et position du core */
 .core{
     text-align: center;
     width: 75%;
