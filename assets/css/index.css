@@ -1,5 +1,5 @@
 :root{
-    --blue-color: #4752C4;
+    --blue-color: #1572A1;
     --text-color: #9CA3AF;
 }
 html{
@@ -24,14 +24,18 @@ nav{
 }
 .core{
     text-align: center;
+    width: 75%;
 }
 #menu-accordeon {
     padding:0;
     margin:0;
     list-style:none;
     text-align: center;
-    width: 200px;
-    
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-right: 4px solid white;
+    padding-right: 50px;
   }
 #menu-accordeon ul {
     padding:0;
@@ -41,11 +45,11 @@ nav{
 }
 #menu-accordeon li {
     background-color:#729EBF; 
-    background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-    background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+    background-image:-webkit-linear-gradient(top, #729EBF 0%, var(--blue-color) 100%);
+    background-image: linear-gradient(to bottom, #729EBF 0%, var(--blue-color) 100%);
     border-radius: 6px;
     margin-bottom:2px;
-    box-shadow: 3px 3px 3px #999;
+    
     border:solid 1px #333A40
 }
 #menu-accordeon li li {
@@ -89,11 +93,30 @@ h1{
     font-size: 2em;
 }
 footer{
-    position: absolute;
     background-color: var(--blue-color);
     width: 100%;
     text-align: center;
     left: 0%;
     bottom: 0;
     color: var(--text-color);
+    height: 5em;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+.icon{
+    width: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.footer-left{
+    float: left;
+    display: inline-flex;
+}
+.link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.link:hover{
+    color: turquoise;
 }
